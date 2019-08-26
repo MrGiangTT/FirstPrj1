@@ -1,4 +1,4 @@
-language: osx
-rvm:
- - 2.2
- - jruby
+language: objective-c
+xcode_project: PrjSwift.xcworkspace # path to your xcodeproj folder
+xcode_scheme: PrjSwift
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
